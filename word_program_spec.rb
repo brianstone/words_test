@@ -1,4 +1,4 @@
-require_relative 'word_program.rb'
+require 'word_program'
 
 RSpec.describe WordProgram do
 
