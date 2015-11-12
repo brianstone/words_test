@@ -1,3 +1,5 @@
+#clear screen for clarity
+system "clear"
 #ask for file from user
 puts "Hello. Please enter the file to read: "
 txt = gets.chomp
@@ -31,10 +33,13 @@ txt_file = File.open(txt) do |f|
 		end
 	end
 
+	# puts "There are #{sequences} sequences."
+	# puts sequences
 
-	#puts sequences
-
-	#iterate over hash and place key in 'sequences' file and value in 'words' file
+	#iterate over hash and place hash in 'sequences' file and key in 'words' file
+	sequences.each do |key, value|
+		puts key
+	end
 
 
 end
