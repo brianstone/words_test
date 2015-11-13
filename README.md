@@ -10,7 +10,7 @@ Write a program which, given a dictionary, generates two output files, 'sequence
 
 ###Getting Started
 1. Clone `words_test`
-2. `ruby word_program.rb`
+2. Run `ruby word_program.rb`
 3. Pass in `dictionary.txt`
 4. View created files
 
