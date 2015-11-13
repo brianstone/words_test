@@ -21,7 +21,7 @@ Contains a large number of words and should be used to achieve the final solutio
 `test_dict.txt`
 Contains a small number of words used for testing on a smaller scale.
 
-`word_program_test.rb`
+`word_program_demos.rb`
 Contains similar code as word_program.rb, but includes small tests for clarification. Can be run seperately if needed.
 
 `sequences`
